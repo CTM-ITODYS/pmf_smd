@@ -9,18 +9,16 @@ J Chem Phys 2003 (119) 3559-66
 Usage:
 % pmf_smd.pl ^ basenamefile ^ number
  
-For example, if you made 20 smd simulations and have files named: smd.txt.1 ; smd.txt.2 ... smd.txt.20 
-#
-# Then:
-#
-# pmf_smd.pl smd.txt 20
-#
-# Several information will be asked to the user:
-# - The starting value of the X-axis (reaction coordinate)
-# - Ending value of the X-axis (reaction coordinate)
-# - The number of PMF points
-#
-# Beware: starting value < ending value
+For example, if you made 20 smd simulations and have files named: smd.txt.1 ; smd.txt.2 ... smd.txt.20. Then:
+
+% pmf_smd.pl smd.txt 20
+
+Several information will be asked to the user:
+ - The starting value of the X-axis (reaction coordinate)
+ - Ending value of the X-axis (reaction coordinate)
+ - The number of PMF points
+
+Beware: starting value < ending value
 #
 # Several files will be created:
 # + PMF_curve.dat
