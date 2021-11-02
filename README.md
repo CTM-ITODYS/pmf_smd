@@ -19,18 +19,12 @@ Several information will be asked to the user:
  - The number of PMF points
 
 Beware: starting value < ending value
-#
-# Several files will be created:
-# + PMF_curve.dat
-# + PMF_gnuplot.gnu
-# + PMF_number.png
-# 
-# PMF_curve.dat is the most important file. This one contains 5 columns
-# which represent, respectively, the reaction coordinate, the free energy
-# with the first-order cumulant method, the error bar of this last value,
-# the free energy with the second-order cumulant method, the error bar of
-# this last value and the last column is the Herman error (J Phys Chem 
-# 1991 (95) 9029-34. PMF_gnuplot.gnu is a gnuplot script file which is used
-# to provide the PMF_number.png.
-#
-# Enjoy, Florent Barbault
+
+Several files will be created:
+ + PMF_curve.dat
+ + PMF_gnuplot.gnu
+ + PMF_number.png
+ 
+PMF_curve.dat is the most important file. This one contains 5 columns which represent, respectively, the reaction coordinate, the free energy with the first-order cumulant method, the error bar of this last value, the free energy with the second-order cumulant method, the error bar of this last value and the last column is the Herman error (J Phys Chem 1991 (95) 9029-34. PMF_gnuplot.gnu is a gnuplot script file which is used to provide the PMF_number.png.
+
+Enjoy, Florent Barbault
